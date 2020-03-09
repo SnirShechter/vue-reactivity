@@ -1,0 +1,54 @@
+#app {
+	min-width: 100vw;
+	min-height: 100vh;
+}
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card {
+	padding: 2rem;
+	min-width: 300px;
+	min-height: 150px;
+}
+h5 {
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.totals {
+	margin-top: 40px;
+}
+.card > div {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+button {
+	border: none;
+	border-radius: 2px;
+	display: inline-block;
+	height: 26px;
+	min-width: 29px;
+	line-height: 26px;
+	padding: 0 8px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	-webkit-tap-highlight-color: transparent;
+	text-decoration: none;
+	color: #fff;
+	background-color: #26a69a;
+	text-align: center;
+	letter-spacing: 0.5px;
+	-webkit-transition: background-color 0.2s ease-out;
+	transition: background-color 0.2s ease-out;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+button:hover {
+	background-color: #dfdfdf !important;
+	color: #9f9f9f !important;
+}
