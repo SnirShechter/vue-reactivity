@@ -1,5 +1,6 @@
 # Vue.js Reactivity
 This repo is a result of a Vue.js reactivity talk & live coding from the 08/03/2020 on Basmach.
+
 **Demo**: https://snirshechter.github.io/vue-reactivity/
 ## File Structure
 The project is divided into 3 main parts:
